@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <map>
+#include <unordered_map>
 int main(){
 	/*std::map<std::string, int> years{                       //слева ключ по которому будет сортировка
 										{"Moscow", 1147},
@@ -25,7 +25,8 @@ int main(){
 			std::cout<<"not found\n";
 			}*/
 			
-	std::map<std::string, int> freqs;
+	std::unordered_map<std::string, int> freqs;
+	freqs.reserve(3000000);
 	std::string word;
 	while(std::cin>>word){
 		++freqs[word];
