@@ -1,5 +1,7 @@
 #include <iostream>
+#include <fstream>
 #include <map>
+#include <unordered_set>
 #include <string>
 #include <cctype>
 std::string only_word(std::string& word){
@@ -11,12 +13,17 @@ std::string only_word(std::string& word){
 	}
 int main(){
 	std::map<std::string, int> words_love;
+	std::ifstream love("love.txt");
+	std::unordered_set<std::string> love_word;
 	std::string word;
 	double box_number=0;
 	
+	while(love>>word){
+		love_word.insert(word);
+		}
 	while(std::cin>>word){
 		word=only_word(word);
-		if(!word.find("люб")){
+		if(love_word.count(word)){
 			++words_love[word];
 			}
 		}
