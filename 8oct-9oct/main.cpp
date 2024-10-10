@@ -17,15 +17,19 @@ int main(){
 	t.AddMinuts(4);
 	t.AddHours(2);
 	//t=t+23;
-	std::cout<<(t+23).GetHours()<<":"<<(t+23).GetMinuts()<<":"<<(t+23).GetSeconds()<<"\n\n";                                                                
+	/*std::cout<<(t+23).GetHours()<<":"<<(t+23).GetMinuts()<<":"<<(t+23).GetSeconds()<<"\n\n";                                                                
 	std::cout<<t1.GetHours()<<":"<<t1.GetMinuts()<<":"<<t1.GetSeconds()<<"\n";
 	std::cout<<t1.GetHours()<<":"<<t1.GetMinuts()<<":"<<t1.GetSeconds()<<"\n\n";
 	std::cout<<t2.GetHours()<<":"<<t2.GetMinuts()<<":"<<t2.GetSeconds()<<"\n";
-	std::cout<<t3.GetHours()<<":"<<t3.GetMinuts()<<":"<<t3.GetSeconds()<<"\n\n";
+	std::cout<<t3.GetHours()<<":"<<t3.GetMinuts()<<":"<<t3.GetSeconds()<<"\n\n";*/
 	
 	std::cout<<(t1-t2)<<"\n";
 	
 	std::cout<<t<<"\n";
+	
+	std::cin>>t3;
+	
+	std::cout<<"\n\n"<<t3.GetHours()<<":"<<t3.GetMinuts()<<":"<<t3.GetSeconds()<<"\n\n";
 	
 	/*if(IsAfternoonTime(t)){
 		std::cout<<"Yes it's "<<t.GetHours()-12<<" PM\n";
