@@ -20,16 +20,19 @@ indent_mode=2
 [project]
 name=matrix
 base_path=/home/stud-12/Desktop/arina/full-class/10octmatrix
+description=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=2
-FILE_NAME_0=0;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FDesktop%2Farina%2Ffull-class%2F10octmatrix%2Fmain.cpp;0;4
-FILE_NAME_1=272;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FDesktop%2Farina%2Ffull-class%2F10octmatrix%2Fmatrix.h;0;4
-FILE_NAME_2=489;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FDesktop%2Farina%2Ffull-class%2F10octmatrix%2Fmatrix.hpp;0;4
+current_page=4
+FILE_NAME_0=254;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FDesktop%2Farina%2Ffull-class%2F10octmatrix%2Fmain.cpp;0;4
+FILE_NAME_1=675;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FDesktop%2Farina%2Ffull-class%2F10octmatrix%2Fmatrix.h;0;4
+FILE_NAME_2=607;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FDesktop%2Farina%2Ffull-class%2F10octmatrix%2Fmatrix.hpp;0;4
+FILE_NAME_3=0;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FDesktop%2Farina%2Ffull-class%2F8oct-9oct%2Ftime.h;0;4
+FILE_NAME_4=0;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FDesktop%2Farina%2Ffull-class%2F8oct-9oct%2Ftime.cpp;0;4
 
 [VTE]
 last_dir=/home/stud-12
