@@ -1,0 +1,3 @@
+/home/stud-12/CLionProjects/21oct/cmake-build-debug/CMakeFiles/21oct.dir
+/home/stud-12/CLionProjects/21oct/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/stud-12/CLionProjects/21oct/cmake-build-debug/CMakeFiles/rebuild_cache.dir
