@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 /*class Cat {
 private:
@@ -63,9 +64,8 @@ public:
     const std::string& GetName() const {
         return name;
     }
-    virtual std::string Voice() const {
-        return "Genetic voice";
-    }
+    virtual std::string Voice() const = 0; //теперь это абстрактный класс если у виртуальной функции есть  =0
+    virtual ~Animal(){} //виртуальный деструктор
 };
 
 class Cat:public Animal {
@@ -79,28 +79,36 @@ public:
 class Dog:public Animal {
 public:
     Dog(const std::string& n): Animal(n){}
-    std::string Voice() const override{
+    std::string Voice() const override {
         return "Woof";
     }
 };
 
-class Shepherd: class Dog {
+class Shepherd: public Dog {
 public:
     std::string Voice() const override final{}
 };
 
 void process(const Animal& creature) {
-    std::cout<<creature.GetName()<<"\n";
+    std::cout<<creature.GetName()<<": "<<creature.Voice()<<"\n";
 }
 
 int main() {
     //Animal c(AnimalType::Cat, "Tom");
     //Animal d(AnimalType::Dog, "Sharik");
 
-    Cat c("Tom");
-    Dog d("Sharik");
-    process(c);
-    process(d);
+    std::vector<Animal*> zoo;
+    //Cat c("Tom");
+    //Dog d("Sharik");
+    //zoo.push_back(&c); было с проблемами
+    //zoo.push_back(&d);
+    zoo.push_back(new Cat("Tom"));
+    zoo.push_back(new Dog("Sharik"));
+    process(*zoo[0]);
+    process(*zoo[1]);
+    for(Animal* animal:zoo) {
+        delete animal;
+    }
 
     return 0;
 }
