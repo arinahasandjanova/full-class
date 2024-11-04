@@ -27,7 +27,12 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=-1
+current_page=0
+FILE_NAME_0=978;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FDesktop%2Farina%2Fhomework-and-personal-tasks%2Frsa%2Fmain.cpp;0;4
+FILE_NAME_1=180;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FDesktop%2Farina%2Fhomework-and-personal-tasks%2Frsa%2Frsa.h;0;4
+FILE_NAME_2=0;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FCLionProjects%2F21oct%2Fmain.cpp;0;4
+FILE_NAME_3=0;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FCLionProjects%2F24oct2%2Fmain.cpp;0;4
+FILE_NAME_4=265;C++;0;EUTF-8;1;1;0;%2Fhome%2Fstud-12%2FDesktop%2Farina%2Ffull-class%2Fmain.cpp;0;4
 
 [VTE]
 last_dir=/home/stud-12

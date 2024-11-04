@@ -1,4 +1,4 @@
-# Install script for directory: /home/stud-12/CLionProjects/24oct
+# Install script for directory: /home/stud-12/Desktop/arina/full-class/24oct
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/stud-12/CLionProjects/24oct/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/stud-12/Desktop/arina/full-class/24oct/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
