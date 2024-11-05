@@ -1,0 +1,3 @@
+/home/stud-12/Desktop/arina/full-class/29oct_taskShape/cmake-build-debug/CMakeFiles/29oct_taskShape.dir
+/home/stud-12/Desktop/arina/full-class/29oct_taskShape/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/stud-12/Desktop/arina/full-class/29oct_taskShape/cmake-build-debug/CMakeFiles/rebuild_cache.dir
